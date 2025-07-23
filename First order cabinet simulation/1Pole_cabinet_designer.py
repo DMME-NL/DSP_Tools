@@ -55,11 +55,11 @@ ax_plot.set_ylabel("Gain (dB)")
 class FilterStage:
     def __init__(self, index, y_base):
         self.enabled = False
-        if index is 0:
+        if index == 0:
             self.type = 'LPF'
-        elif index is 1:
+        elif index == 1:
             self.type = 'HPF'
-        elif index is 2:
+        elif index == 2:
             self.type = 'BPF'
 
         self.fc = 1000
