@@ -5,10 +5,6 @@ These tools where created for quick and intuitive design of filters, tone stacks
 Especially for guitar-focused DSP projects on the RP2040 microcontroller. 
 Since fixed-point audio DSP resources are limited, this project helps bridge the gap.
 
-These tools where created for quick and intuitive design of filters, tone stacks, or cabinets. 
-Especially for guitar-focused DSP projects on the RP2040 microcontroller. 
-Since fixed-point audio DSP resources are limited, this project helps bridge the gap.
-
 ## First-Order Fixed-Point Tone Stack Design Tool
 Models a simple tone stack consisting of: HPF → (Bass Shelf + Mid Band + Treble Shelf) → LPF
 Folder includes a snipet of C-code from a DSP project I have been workin on.
