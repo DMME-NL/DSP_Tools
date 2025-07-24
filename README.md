@@ -21,12 +21,13 @@ A simple tool for modeling a low-pass, high-pass, band-pass, or band-stop filter
 
 <img width="630" height="335" alt="image" src="https://github.com/user-attachments/assets/12a0f998-0193-4585-a5f6-9f0090ec7772" />
 
-
 ## First-Order Fixed-Point Filter Design Tool
-Combine three filters to replicate guitar speaker cabinets, or any other system for that matter.
+Combine six filters to replicate guitar speaker cabinets, or any other system for that matter.
 It is not a very close approximation of a real speaker by any means, but it is very flexible for tone-shaping.
+Four different filter types with flexible frequency, range, and gain controls. 
+Adjacent filters can be processed in  parallel to add even more flexibility.
 
-<img width="690" height="433" alt="image" src="https://github.com/user-attachments/assets/077ed706-765c-4d01-9e4c-dab9104cdfe1" />
+<img width="776" height="827" alt="image" src="https://github.com/user-attachments/assets/ac623030-1d19-4149-be5f-56536a5071ad" />
 
 ## Note
 The real time playback can crash the tool when using 'wrong' sample rate or device.
