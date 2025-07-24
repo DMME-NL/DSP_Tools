@@ -1,3 +1,5 @@
+#include <stdint.h>
+
 #define PEAK_MAX        0x7FFFFF00      // Largest 24-bit sample for peak detection (~24-bit max)
 #define PEAK_MIN       -0x7FFFFF00      // Largest 24-bit sample for peak detection (~24-bit max)
 
